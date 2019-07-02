@@ -7,6 +7,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "buildScripts/srcServer.js",
+			"settings":
+			{
+				"buffer_size": 352,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/index.html",
+			"settings":
+			{
+				"buffer_size": 49,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
 	"build_system_choices":
@@ -52,6 +70,10 @@
 	],
 	"file_history":
 	[
+		"/home/timmy/pluralsight-js-dev-env/.editorconfig",
+		"/home/timmy/pluralsight-js-dev-env/package.json",
+		"/home/timmy/pluralsight-js-dev-env/package-lock.json",
+		"/home/timmy/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
 		"/home/timmy/.npm/_logs/2019-06-16T17_14_17_652Z-debug.log",
 		"/usr/lib/node_modules/gulp/package.json",
 		"/home/timmy/Downloads/demos/package.json",
@@ -94,7 +116,7 @@
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -108,6 +130,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"express",
 			"user",
 			"echo",
 			"php",
@@ -132,8 +155,75 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "buildScripts/srcServer.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 352,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								352,
+								352
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 49,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								40,
+								40
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
